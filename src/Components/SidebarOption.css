@@ -1,27 +1,48 @@
-.sidebarOption{
+.sidebarOption {
     display: flex;
     align-items: center;
     font-size: 12px;
     cursor: pointer;
 }
 
-.sidebarOption:hover{
+.sidebarOption:hover {
     background-color: #340e36;
     opacity: 0.9;
 }
 
-.sidebarOption_icon{
+.sidebarOption_icon {
     padding: 10px;
     font-size: 15px;
 }
-.sidebarOption_channel{
+
+.sidebarOption_channel {
     padding: 10px 0;
 }
 
-.sidebarOption_hash{
+.sidebarOption_hash {
     padding: 10px;
 }
 
-.sidebarOption>h3{
+.sidebarOption>h3 {
     font-weight: 400;
+}
+
+.contextMenu {
+    width: 200px;
+    height: 90px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(117, 40, 79);
+    border-radius: 5px;
+}
+
+.contextMenu > div{
+    border: 1px solid rgb(110, 28, 86);
+    height: 30px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    
 }

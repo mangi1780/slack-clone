@@ -1,0 +1,39 @@
+.chatInput{
+    border-radius: 20px;
+}
+
+.chatInput > form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.chatImage > form > input[type=file]{ 
+    color:transparent;
+}
+
+.inputMessage{
+    position: fixed;
+    bottom: 30px;
+    width: 60%;
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.inputImage{
+    position: fixed;
+    bottom: 50px;
+    border: 1px solid grey;
+}
+.chatInput > form > button{
+    display: none !important;
+    
+}
+
+.chatInput > input {
+position: fixed;
+bottom: 30px;
+right: 10px;
+
+}

@@ -3,6 +3,9 @@
     border-top: 1px solid #4294b4;
     max-width: 160PX;
     color: white;
+    flex: .3;
+    
+   
 }
 
 .sidebar__header{
